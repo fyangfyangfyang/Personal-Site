@@ -1,0 +1,118 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #c3eca7;
+            background-size: 100% 2em;
+            background-position: 0 1.5em;
+            line-height: 2em;
+            padding: 0;
+            margin: 0;
+            color: #444;
+            position: relative;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2em 40px;
+        }
+
+
+        .header-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 20px;
+            padding-top: 2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+
+        .circle {
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+        }
+
+
+        .box {
+            border: 2px solid #ccc;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.5);
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        .student-description {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color: #8f3434;
+            margin-top: 0.5em;
+            line-height: 1.4em;
+        }
+
+        h2 {
+            font-weight: bold;
+            text-align: center;
+            font-size: 40px;
+        }
+        h4 {
+            text-align: center;
+            font-size: 20px;
+        }
+        p {
+            text-align: center;
+            font-size: 40px;
+        }
+        .one {
+            max-width: 300px;
+            width: 150px;
+            height: 150px;
+        }
+        .two {
+            max-width: 300px;
+            width: 150px;
+            height: 150px;
+        }
+        .three {
+            max-width: 300px;
+            width: 150px;
+            height: 150px;
+        }
+        .float {
+            flex: 1 1 400px; /* grow, shrink, basis */
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        div {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2em;
+            padding-top: 1em;
+            border-top: 2px dashed #050505;
+            color: #666;
+        }
+
+        footer a {
+            color: #3b5998;
+            text-decoration: none;
+            font-weight: bold;
+        }
